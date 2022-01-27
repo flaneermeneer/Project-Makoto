@@ -256,7 +256,7 @@ header img{
     width: 8em;
 }
 .user h2{
-    margin-top:-5px;
+    margin-top:-39px;
 }
 .user h3{
     padding-bottom: 10px;
@@ -290,8 +290,13 @@ font-weight: bold;
     margin-top: 10px;
     font-size: 20px;
 }
+
 #follow{
     height: 26px;
     width: 229px;
     
+}
+#accountinfo p{
+    margin:10px;
+    font-weight: bold;
 }
