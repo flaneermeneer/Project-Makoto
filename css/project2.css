@@ -1,0 +1,297 @@
+/* importeer fonts uit onze eigen mappen */
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../assets/FilsonProRegular.otf');
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  @font-face {
+      font-family: 'AcuminVariable';
+      src: url('../assets/AcuminVariableConcept.otf');
+      font-style: normal;
+      font-weight: 300;
+  }
+  
+  /* CSS reset, deze zet standaard alle witruimte (margin en padding) op 0. Je moet dan zelf overal weer margin en padding toevoegen op de elementen waar je dit wel wilt hebben.
+     Ook zorgen we dat voor alle block elementen de afmetingen niet alleen worden bepaald door de content, maar dat ook padding en border meetellen. 
+     Dit ontwerpt makkelijker.
+     Zie: https://www.internetingishard.com/html-and-css/css-box-model/#content-boxes-and-border-boxes  */
+  * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      
+  
+      
+  }
+  
+  /* Stel een witte achtergrond in en geef de body een beetje margin, relatief ten opzichte van het schermformaat */
+  body {
+      background-color: #e3e4e4;
+      margin: 0vh 0vw 5vh 0vw;
+      text-align: center;
+      font-family: 'FilsonPro', sans-serif;   
+      font-size: 1.4em;
+      color: #0C1E32;
+      font-weight: 500; /* ietsje dikker dan normaal, maar minder dik dan bold */
+      
+  }
+  
+  /* onderstaande styles voor de <h1>, <h2>, <p> an <a> tags geven een voorbeeld
+     hoe je de geimporteerde fonts kunt gebruiken.
+     Op je eigen website mag je natuurlijk andere lettertypes, groottes, en
+     kleuren, etc. voor deze tags gebruiken. */
+     
+  h1 {
+    
+      font-family: 'FilsonPro', sans-serif;   
+      font-size: 0.8em;
+      color: #FFFFFF;
+      background-color: #EB4F75;
+      font-weight: 700; /* bold */
+      width: fit-content;
+      padding: 5px 20px 5px 20px;
+      margin-bottom: 0.5em;
+      text-align: center;
+  }
+  
+  h2 {
+    font-family: 'FilsonPro', sans-serif;   
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #5475B6;
+    font-weight: 700; /* bold */
+    
+    margin-top:17px;
+  }
+ .spaning{
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-weight: bold;
+ }
+  p {
+      font-family: 'AcuminVariable', sans-serif;
+      font-size: 20px;
+      color: black;
+     
+  }
+  span{
+      color: #EB4F75;
+  }
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+  }
+
+nav{
+text-align: center;
+text-decoration: none;
+background-color: #5475B6;
+margin-bottom: -50em;
+width: 100%;
+
+}
+nav li {
+  width: 25%;
+  
+}
+nav img{
+    margin-top: 5px;
+}
+
+header{
+    text-align: center;
+    text-decoration: none;
+    background-color: #5475B6;
+
+    
+    }
+    header li {
+      text-align: center;
+      
+    }
+    
+
+main img{
+    height: 8em;
+    width: 12em;
+    
+}
+.home{
+  
+    background-color: #FFFFFF;
+    width: 328px;
+    height:420px;
+    border: 2px solid #EB4F75;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 1%;
+}
+
+.home img{
+    text-align: center;
+    margin-left: -25px;
+    margin-top: -30px;
+    border-radius: 2%;
+}
+
+.button{
+    border: 2px solid #5475B6;
+    background-color: #5475B6;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+.button span{
+    color: #FFFFFF;
+}
+
+
+.home p{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+   
+}
+.gerecht{
+    background-color: #FFFFFF;
+    width: 328px;
+    height:1750px;
+    border: 2px solid #EB4F75;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 1%;
+} 
+.gerecht img{
+    text-align: center;
+    margin-left: -25px;
+    margin-top: -30px;
+    border-radius: 2%;
+}
+.gerecht p{
+    margin-top:10px;
+    
+}
+.gerecht a {
+    text-decoration: none;
+    
+}
+.stores{
+    background-color: #FFFFFF;
+    width: 328px;
+    height:500px;
+    border: 2px solid #EB4F75;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 1%;
+
+}
+.stores img{
+    margin-left: -25px;
+    margin-top: -30px;
+    border-radius: 2%;
+}
+.stores p{
+    
+    margin-top: 10px;
+}
+
+#maps2{
+    background-color: #FFFFFF;
+    width: 328px;
+    height:670px;
+    border: 2px solid #EB4F75;
+    padding: 50px;
+    margin: 20px;   
+    border-radius: 1%;
+}
+#maps2 p{
+ margin-bottom: 10px; 
+}
+.navbar2 img{
+    height: 2em;
+    width: 3em;
+}
+.navbar2 li{
+    width: 50%;
+
+}
+#maps2 img{
+    height: 100px;
+    width: 200px;  
+    border-radius: 2%;
+}
+#maps2 h3{
+padding-bottom: 20px;
+
+}
+header img{
+    padding-top: 15px;
+}
+#frame img{
+    width: 100%;
+    height: 600px;
+    
+ 
+}
+.user{
+    background-color: #FFFFFF;
+    width: 328px;
+    height:450px;
+    border: 2px solid #EB4F75;
+    padding: 50px;
+    margin: 20px;   
+    border-radius: 1%;
+}
+.user img{
+   
+   
+    height: 8em;
+    width: 8em;
+}
+.user h2{
+    margin-top:-5px;
+}
+.user h3{
+    padding-bottom: 10px;
+}
+.eye p{
+font-size: 1em;
+
+border-spacing: 10px;
+}
+.eye img{
+    height: 15px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.topinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ 
+}
+.topinfo li{
+    width: 33%;
+    margin:5px;
+}
+.topinfo p{
+font-weight: bold;
+ 
+}
+#user h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#follow{
+    height: 26px;
+    width: 229px;
+    
+}
